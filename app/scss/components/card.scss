@@ -1,0 +1,6 @@
+// * means wildcard so you don't have to use folder name to call files within
+@use '../util' as *;
+
+.card{
+    padding: function rem(20);
+}
